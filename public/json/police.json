@@ -1,0 +1,2326 @@
+[
+  {
+    "City": "Alameda",
+    "Population": "77,048",
+    "Total lawenforcementemployees": 115,
+    "Total officers": 84,
+    "Total civilians": 31
+  },
+  {
+    "City": "Albany",
+    "Population": "19,350",
+    "Total lawenforcementemployees": 30,
+    "Total officers": 24,
+    "Total civilians": 6
+  },
+  {
+    "City": "Alhambra",
+    "Population": "84,931",
+    "Total lawenforcementemployees": 126,
+    "Total officers": 82,
+    "Total civilians": 44
+  },
+  {
+    "City": "Alturas",
+    "Population": "2,615",
+    "Total lawenforcementemployees": 9,
+    "Total officers": 8,
+    "Total civilians": 1
+  },
+  {
+    "City": "Anaheim",
+    "Population": "346,956",
+    "Total lawenforcementemployees": 550,
+    "Total officers": 374,
+    "Total civilians": 176
+  },
+  {
+    "City": "Anderson",
+    "Population": "10,176",
+    "Total lawenforcementemployees": 21,
+    "Total officers": 15,
+    "Total civilians": 6
+  },
+  {
+    "City": "Antioch",
+    "Population": "108,223",
+    "Total lawenforcementemployees": 114,
+    "Total officers": 88,
+    "Total civilians": 26
+  },
+  {
+    "City": "Arcadia",
+    "Population": "57,950",
+    "Total lawenforcementemployees": 95,
+    "Total officers": 66,
+    "Total civilians": 29
+  },
+  {
+    "City": "Arcata",
+    "Population": "17,748",
+    "Total lawenforcementemployees": 38,
+    "Total officers": 26,
+    "Total civilians": 12
+  },
+  {
+    "City": "Arroyo Grande",
+    "Population": "17,829",
+    "Total lawenforcementemployees": 28,
+    "Total officers": 25,
+    "Total civilians": 3
+  },
+  {
+    "City": "Arvin",
+    "Population": "20,541",
+    "Total lawenforcementemployees": 27,
+    "Total officers": 20,
+    "Total civilians": 7
+  },
+  {
+    "City": "Atascadero",
+    "Population": "29,268",
+    "Total lawenforcementemployees": 37,
+    "Total officers": 27,
+    "Total civilians": 10
+  },
+  {
+    "City": "Atherton",
+    "Population": "7,221",
+    "Total lawenforcementemployees": 27,
+    "Total officers": 21,
+    "Total civilians": 6
+  },
+  {
+    "City": "Atwater",
+    "Population": "28,961",
+    "Total lawenforcementemployees": 38,
+    "Total officers": 29,
+    "Total civilians": 9
+  },
+  {
+    "City": "Auburn",
+    "Population": "14,042",
+    "Total lawenforcementemployees": 27,
+    "Total officers": 20,
+    "Total civilians": 7
+  },
+  {
+    "City": "Avenal",
+    "Population": "13,914",
+    "Total lawenforcementemployees": 18,
+    "Total officers": 16,
+    "Total civilians": 2
+  },
+  {
+    "City": "Azusa",
+    "Population": "48,224",
+    "Total lawenforcementemployees": 93,
+    "Total officers": 59,
+    "Total civilians": 34
+  },
+  {
+    "City": "Bakersfield",
+    "Population": "367,406",
+    "Total lawenforcementemployees": 517,
+    "Total officers": 370,
+    "Total civilians": 147
+  },
+  {
+    "City": "Baldwin Park",
+    "Population": "76,933",
+    "Total lawenforcementemployees": 91,
+    "Total officers": 65,
+    "Total civilians": 26
+  },
+  {
+    "City": "Banning",
+    "Population": "30,699",
+    "Total lawenforcementemployees": 40,
+    "Total officers": 25,
+    "Total civilians": 15
+  },
+  {
+    "City": "Barstow",
+    "Population": "23,349",
+    "Total lawenforcementemployees": 54,
+    "Total officers": 37,
+    "Total civilians": 17
+  },
+  {
+    "City": "Bear Valley",
+    "Population": "5,379",
+    "Total lawenforcementemployees": 18,
+    "Total officers": 7,
+    "Total civilians": 11
+  },
+  {
+    "City": "Beaumont",
+    "Population": "41,323",
+    "Total lawenforcementemployees": 57,
+    "Total officers": 41,
+    "Total civilians": 16
+  },
+  {
+    "City": "Bell",
+    "Population": "36,059",
+    "Total lawenforcementemployees": 36,
+    "Total officers": 25,
+    "Total civilians": 11
+  },
+  {
+    "City": "Bell Gardens",
+    "Population": "43,089",
+    "Total lawenforcementemployees": 67,
+    "Total officers": 51,
+    "Total civilians": 16
+  },
+  {
+    "City": "Belmont",
+    "Population": "26,947",
+    "Total lawenforcementemployees": 42,
+    "Total officers": 29,
+    "Total civilians": 13
+  },
+  {
+    "City": "Belvedere",
+    "Population": "2,135",
+    "Total lawenforcementemployees": 8,
+    "Total officers": 7,
+    "Total civilians": 1
+  },
+  {
+    "City": "Benicia",
+    "Population": "27,766",
+    "Total lawenforcementemployees": 47,
+    "Total officers": 32,
+    "Total civilians": 15
+  },
+  {
+    "City": "Berkeley",
+    "Population": "117,753",
+    "Total lawenforcementemployees": 257,
+    "Total officers": 168,
+    "Total civilians": 89
+  },
+  {
+    "City": "Beverly Hills",
+    "Population": "34,788",
+    "Total lawenforcementemployees": 171,
+    "Total officers": 113,
+    "Total civilians": 58
+  },
+  {
+    "City": "Bishop",
+    "Population": "3,860",
+    "Total lawenforcementemployees": 18,
+    "Total officers": 12,
+    "Total civilians": 6
+  },
+  {
+    "City": "Blythe",
+    "Population": "19,669",
+    "Total lawenforcementemployees": 29,
+    "Total officers": 19,
+    "Total civilians": 10
+  },
+  {
+    "City": "Brawley",
+    "Population": "25,695",
+    "Total lawenforcementemployees": 40,
+    "Total officers": 26,
+    "Total civilians": 14
+  },
+  {
+    "City": "Brea",
+    "Population": "41,359",
+    "Total lawenforcementemployees": 92,
+    "Total officers": 59,
+    "Total civilians": 33
+  },
+  {
+    "City": "Brentwood",
+    "Population": "55,826",
+    "Total lawenforcementemployees": 73,
+    "Total officers": 56,
+    "Total civilians": 17
+  },
+  {
+    "City": "Brisbane",
+    "Population": "4,482",
+    "Total lawenforcementemployees": 15,
+    "Total officers": 13,
+    "Total civilians": 2
+  },
+  {
+    "City": "Broadmoor",
+    "Population": "4,343",
+    "Total lawenforcementemployees": 10,
+    "Total officers": 9,
+    "Total civilians": 1
+  },
+  {
+    "City": "Buena Park",
+    "Population": "83,414",
+    "Total lawenforcementemployees": 116,
+    "Total officers": 78,
+    "Total civilians": 38
+  },
+  {
+    "City": "Burbank",
+    "Population": "105,041",
+    "Total lawenforcementemployees": 225,
+    "Total officers": 146,
+    "Total civilians": 79
+  },
+  {
+    "City": "Burlingame",
+    "Population": "30,161",
+    "Total lawenforcementemployees": 55,
+    "Total officers": 36,
+    "Total civilians": 19
+  },
+  {
+    "City": "Calexico",
+    "Population": "39,572",
+    "Total lawenforcementemployees": 55,
+    "Total officers": 37,
+    "Total civilians": 18
+  },
+  {
+    "City": "California City",
+    "Population": "13,168",
+    "Total lawenforcementemployees": 32,
+    "Total officers": 21,
+    "Total civilians": 11
+  },
+  {
+    "City": "Calipatria",
+    "Population": "6,963",
+    "Total lawenforcementemployees": 3,
+    "Total officers": 3,
+    "Total civilians": 0
+  },
+  {
+    "City": "Calistoga",
+    "Population": "5,277",
+    "Total lawenforcementemployees": 14,
+    "Total officers": 10,
+    "Total civilians": 4
+  },
+  {
+    "City": "Campbell",
+    "Population": "40,872",
+    "Total lawenforcementemployees": 61,
+    "Total officers": 39,
+    "Total civilians": 22
+  },
+  {
+    "City": "Capitola",
+    "Population": "10,134",
+    "Total lawenforcementemployees": 30,
+    "Total officers": 21,
+    "Total civilians": 9
+  },
+  {
+    "City": "Carlsbad",
+    "Population": "112,297",
+    "Total lawenforcementemployees": 158,
+    "Total officers": 110,
+    "Total civilians": 48
+  },
+  {
+    "City": "Carmel",
+    "Population": "3,871",
+    "Total lawenforcementemployees": 21,
+    "Total officers": 14,
+    "Total civilians": 7
+  },
+  {
+    "City": "Cathedral City",
+    "Population": "53,368",
+    "Total lawenforcementemployees": 68,
+    "Total officers": 47,
+    "Total civilians": 21
+  },
+  {
+    "City": "Central Marin",
+    "Population": "34,450",
+    "Total lawenforcementemployees": 57,
+    "Total officers": 44,
+    "Total civilians": 13
+  },
+  {
+    "City": "Ceres",
+    "Population": "46,903",
+    "Total lawenforcementemployees": 62,
+    "Total officers": 47,
+    "Total civilians": 15
+  },
+  {
+    "City": "Chico",
+    "Population": "88,562",
+    "Total lawenforcementemployees": 123,
+    "Total officers": 76,
+    "Total civilians": 47
+  },
+  {
+    "City": "Chino",
+    "Population": "81,600",
+    "Total lawenforcementemployees": 148,
+    "Total officers": 98,
+    "Total civilians": 50
+  },
+  {
+    "City": "Chowchilla",
+    "Population": "17,079",
+    "Total lawenforcementemployees": 24,
+    "Total officers": 17,
+    "Total civilians": 7
+  },
+  {
+    "City": "Chula Vista",
+    "Population": "259,894",
+    "Total lawenforcementemployees": 298,
+    "Total officers": 212,
+    "Total civilians": 86
+  },
+  {
+    "City": "Citrus Heights",
+    "Population": "85,758",
+    "Total lawenforcementemployees": 133,
+    "Total officers": 90,
+    "Total civilians": 43
+  },
+  {
+    "City": "City of Angels",
+    "Population": "3,716",
+    "Total lawenforcementemployees": 8,
+    "Total officers": 7,
+    "Total civilians": 1
+  },
+  {
+    "City": "Claremont",
+    "Population": "36,042",
+    "Total lawenforcementemployees": 60,
+    "Total officers": 34,
+    "Total civilians": 26
+  },
+  {
+    "City": "Clayton",
+    "Population": "11,646",
+    "Total lawenforcementemployees": 13,
+    "Total officers": 11,
+    "Total civilians": 2
+  },
+  {
+    "City": "Clearlake",
+    "Population": "14,914",
+    "Total lawenforcementemployees": 27,
+    "Total officers": 20,
+    "Total civilians": 7
+  },
+  {
+    "City": "Cloverdale",
+    "Population": "8,766",
+    "Total lawenforcementemployees": 19,
+    "Total officers": 12,
+    "Total civilians": 7
+  },
+  {
+    "City": "Clovis",
+    "Population": "100,705",
+    "Total lawenforcementemployees": 153,
+    "Total officers": 95,
+    "Total civilians": 58
+  },
+  {
+    "City": "Coalinga",
+    "Population": "16,445",
+    "Total lawenforcementemployees": 29,
+    "Total officers": 19,
+    "Total civilians": 10
+  },
+  {
+    "City": "Colma",
+    "Population": "1,503",
+    "Total lawenforcementemployees": 25,
+    "Total officers": 19,
+    "Total civilians": 6
+  },
+  {
+    "City": "Colton",
+    "Population": "53,485",
+    "Total lawenforcementemployees": 74,
+    "Total officers": 43,
+    "Total civilians": 31
+  },
+  {
+    "City": "Colusa",
+    "Population": "5,942",
+    "Total lawenforcementemployees": 9,
+    "Total officers": 8,
+    "Total civilians": 1
+  },
+  {
+    "City": "Concord",
+    "Population": "126,744",
+    "Total lawenforcementemployees": 208,
+    "Total officers": 151,
+    "Total civilians": 57
+  },
+  {
+    "City": "Corcoran",
+    "Population": "23,057",
+    "Total lawenforcementemployees": 31,
+    "Total officers": 20,
+    "Total civilians": 11
+  },
+  {
+    "City": "Corning",
+    "Population": "7,569",
+    "Total lawenforcementemployees": 20,
+    "Total officers": 13,
+    "Total civilians": 7
+  },
+  {
+    "City": "Corona",
+    "Population": "161,128",
+    "Total lawenforcementemployees": 214,
+    "Total officers": 154,
+    "Total civilians": 60
+  },
+  {
+    "City": "Coronado",
+    "Population": "23,385",
+    "Total lawenforcementemployees": 63,
+    "Total officers": 43,
+    "Total civilians": 20
+  },
+  {
+    "City": "Costa Mesa",
+    "Population": "112,709",
+    "Total lawenforcementemployees": 185,
+    "Total officers": 113,
+    "Total civilians": 72
+  },
+  {
+    "City": "Cotati",
+    "Population": "7,424",
+    "Total lawenforcementemployees": 16,
+    "Total officers": 11,
+    "Total civilians": 5
+  },
+  {
+    "City": "Covina",
+    "Population": "48,681",
+    "Total lawenforcementemployees": 84,
+    "Total officers": 55,
+    "Total civilians": 29
+  },
+  {
+    "City": "Crescent City",
+    "Population": "7,090",
+    "Total lawenforcementemployees": 13,
+    "Total officers": 12,
+    "Total civilians": 1
+  },
+  {
+    "City": "Culver City",
+    "Population": "39,561",
+    "Total lawenforcementemployees": 145,
+    "Total officers": 88,
+    "Total civilians": 57
+  },
+  {
+    "City": "Cypress",
+    "Population": "49,370",
+    "Total lawenforcementemployees": 69,
+    "Total officers": 53,
+    "Total civilians": 16
+  },
+  {
+    "City": "Daly City",
+    "Population": "105,628",
+    "Total lawenforcementemployees": 150,
+    "Total officers": 111,
+    "Total civilians": 39
+  },
+  {
+    "City": "Davis",
+    "Population": "66,360",
+    "Total lawenforcementemployees": 92,
+    "Total officers": 59,
+    "Total civilians": 33
+  },
+  {
+    "City": "Delano",
+    "Population": "52,224",
+    "Total lawenforcementemployees": 72,
+    "Total officers": 47,
+    "Total civilians": 25
+  },
+  {
+    "City": "Del Rey Oaks",
+    "Population": "1,683",
+    "Total lawenforcementemployees": 6,
+    "Total officers": 6,
+    "Total civilians": 0
+  },
+  {
+    "City": "Desert Hot Springs",
+    "Population": "28,086",
+    "Total lawenforcementemployees": 28,
+    "Total officers": 24,
+    "Total civilians": 4
+  },
+  {
+    "City": "Dinuba",
+    "Population": "23,815",
+    "Total lawenforcementemployees": 44,
+    "Total officers": 35,
+    "Total civilians": 9
+  },
+  {
+    "City": "Dixon",
+    "Population": "19,103",
+    "Total lawenforcementemployees": 27,
+    "Total officers": 22,
+    "Total civilians": 5
+  },
+  {
+    "City": "Dos Palos",
+    "Population": "5,081",
+    "Total lawenforcementemployees": 9,
+    "Total officers": 8,
+    "Total civilians": 1
+  },
+  {
+    "City": "Downey",
+    "Population": "113,595",
+    "Total lawenforcementemployees": 146,
+    "Total officers": 108,
+    "Total civilians": 38
+  },
+  {
+    "City": "East Palo Alto",
+    "Population": "29,377",
+    "Total lawenforcementemployees": 42,
+    "Total officers": 33,
+    "Total civilians": 9
+  },
+  {
+    "City": "El Cajon",
+    "Population": "102,838",
+    "Total lawenforcementemployees": 187,
+    "Total officers": 122,
+    "Total civilians": 65
+  },
+  {
+    "City": "El Centro",
+    "Population": "43,532",
+    "Total lawenforcementemployees": 66,
+    "Total officers": 45,
+    "Total civilians": 21
+  },
+  {
+    "City": "El Cerrito",
+    "Population": "24,485",
+    "Total lawenforcementemployees": 49,
+    "Total officers": 42,
+    "Total civilians": 7
+  },
+  {
+    "City": "Elk Grove",
+    "Population": "162,957",
+    "Total lawenforcementemployees": 204,
+    "Total officers": 126,
+    "Total civilians": 78
+  },
+  {
+    "City": "El Monte",
+    "Population": "116,220",
+    "Total lawenforcementemployees": 154,
+    "Total officers": 114,
+    "Total civilians": 40
+  },
+  {
+    "City": "El Segundo",
+    "Population": "16,990",
+    "Total lawenforcementemployees": 75,
+    "Total officers": 60,
+    "Total civilians": 15
+  },
+  {
+    "City": "Emeryville",
+    "Population": "10,972",
+    "Total lawenforcementemployees": 50,
+    "Total officers": 35,
+    "Total civilians": 15
+  },
+  {
+    "City": "Escalon",
+    "Population": "7,281",
+    "Total lawenforcementemployees": 11,
+    "Total officers": 10,
+    "Total civilians": 1
+  },
+  {
+    "City": "Escondido",
+    "Population": "149,839",
+    "Total lawenforcementemployees": 205,
+    "Total officers": 153,
+    "Total civilians": 52
+  },
+  {
+    "City": "Etna",
+    "Population": 715,
+    "Total lawenforcementemployees": 3,
+    "Total officers": 2,
+    "Total civilians": 1
+  },
+  {
+    "City": "Eureka",
+    "Population": "26,843",
+    "Total lawenforcementemployees": 80,
+    "Total officers": 50,
+    "Total civilians": 30
+  },
+  {
+    "City": "Exeter",
+    "Population": "10,524",
+    "Total lawenforcementemployees": 20,
+    "Total officers": 18,
+    "Total civilians": 2
+  },
+  {
+    "City": "Fairfax",
+    "Population": "7,647",
+    "Total lawenforcementemployees": 16,
+    "Total officers": 11,
+    "Total civilians": 5
+  },
+  {
+    "City": "Fairfield",
+    "Population": "110,300",
+    "Total lawenforcementemployees": 174,
+    "Total officers": 112,
+    "Total civilians": 62
+  },
+  {
+    "City": "Farmersville",
+    "Population": "10,752",
+    "Total lawenforcementemployees": 14,
+    "Total officers": 13,
+    "Total civilians": 1
+  },
+  {
+    "City": "Ferndale",
+    "Population": "1,360",
+    "Total lawenforcementemployees": 5,
+    "Total officers": 5,
+    "Total civilians": 0
+  },
+  {
+    "City": "Firebaugh",
+    "Population": "8,238",
+    "Total lawenforcementemployees": 15,
+    "Total officers": 11,
+    "Total civilians": 4
+  },
+  {
+    "City": "Folsom",
+    "Population": "73,329",
+    "Total lawenforcementemployees": 93,
+    "Total officers": 69,
+    "Total civilians": 24
+  },
+  {
+    "City": "Fontana",
+    "Population": "204,532",
+    "Total lawenforcementemployees": 280,
+    "Total officers": 183,
+    "Total civilians": 97
+  },
+  {
+    "City": "Fort Bragg",
+    "Population": "7,245",
+    "Total lawenforcementemployees": 21,
+    "Total officers": 15,
+    "Total civilians": 6
+  },
+  {
+    "City": "Fortuna",
+    "Population": "11,752",
+    "Total lawenforcementemployees": 22,
+    "Total officers": 14,
+    "Total civilians": 8
+  },
+  {
+    "City": "Foster City",
+    "Population": "32,836",
+    "Total lawenforcementemployees": 47,
+    "Total officers": 34,
+    "Total civilians": 13
+  },
+  {
+    "City": "Fountain Valley",
+    "Population": "57,024",
+    "Total lawenforcementemployees": 76,
+    "Total officers": 57,
+    "Total civilians": 19
+  },
+  {
+    "City": "Fowler",
+    "Population": "6,032",
+    "Total lawenforcementemployees": 12,
+    "Total officers": 11,
+    "Total civilians": 1
+  },
+  {
+    "City": "Fremont",
+    "Population": "227,575",
+    "Total lawenforcementemployees": 276,
+    "Total officers": 181,
+    "Total civilians": 95
+  },
+  {
+    "City": "Fresno",
+    "Population": "513,187",
+    "Total lawenforcementemployees": 947,
+    "Total officers": 708,
+    "Total civilians": 239
+  },
+  {
+    "City": "Fullerton",
+    "Population": "139,895",
+    "Total lawenforcementemployees": 200,
+    "Total officers": 137,
+    "Total civilians": 63
+  },
+  {
+    "City": "Galt",
+    "Population": "24,671",
+    "Total lawenforcementemployees": 49,
+    "Total officers": 38,
+    "Total civilians": 11
+  },
+  {
+    "City": "Gardena",
+    "Population": "60,233",
+    "Total lawenforcementemployees": 120,
+    "Total officers": 92,
+    "Total civilians": 28
+  },
+  {
+    "City": "Garden Grove",
+    "Population": "176,106",
+    "Total lawenforcementemployees": 214,
+    "Total officers": 152,
+    "Total civilians": 62
+  },
+  {
+    "City": "Gilroy",
+    "Population": "52,415",
+    "Total lawenforcementemployees": 92,
+    "Total officers": 58,
+    "Total civilians": 34
+  },
+  {
+    "City": "Glendale",
+    "Population": "197,079",
+    "Total lawenforcementemployees": 349,
+    "Total officers": 244,
+    "Total civilians": 105
+  },
+  {
+    "City": "Glendora",
+    "Population": "51,292",
+    "Total lawenforcementemployees": 81,
+    "Total officers": 49,
+    "Total civilians": 32
+  },
+  {
+    "City": "Gonzales",
+    "Population": "8,459",
+    "Total lawenforcementemployees": 14,
+    "Total officers": 11,
+    "Total civilians": 3
+  },
+  {
+    "City": "Grass Valley",
+    "Population": "12,777",
+    "Total lawenforcementemployees": 26,
+    "Total officers": 23,
+    "Total civilians": 3
+  },
+  {
+    "City": "Greenfield",
+    "Population": "16,986",
+    "Total lawenforcementemployees": 16,
+    "Total officers": 14,
+    "Total civilians": 2
+  },
+  {
+    "City": "Gridley",
+    "Population": "6,558",
+    "Total lawenforcementemployees": 21,
+    "Total officers": 16,
+    "Total civilians": 5
+  },
+  {
+    "City": "Grover Beach",
+    "Population": "13,497",
+    "Total lawenforcementemployees": 25,
+    "Total officers": 16,
+    "Total civilians": 9
+  },
+  {
+    "City": "Guadalupe",
+    "Population": "7,260",
+    "Total lawenforcementemployees": 12,
+    "Total officers": 11,
+    "Total civilians": 1
+  },
+  {
+    "City": "Gustine",
+    "Population": "5,667",
+    "Total lawenforcementemployees": 12,
+    "Total officers": 10,
+    "Total civilians": 2
+  },
+  {
+    "City": "Hanford",
+    "Population": "54,824",
+    "Total lawenforcementemployees": 76,
+    "Total officers": 50,
+    "Total civilians": 26
+  },
+  {
+    "City": "Hawthorne",
+    "Population": "86,670",
+    "Total lawenforcementemployees": 131,
+    "Total officers": 97,
+    "Total civilians": 34
+  },
+  {
+    "City": "Hayward",
+    "Population": "153,319",
+    "Total lawenforcementemployees": 289,
+    "Total officers": 175,
+    "Total civilians": 114
+  },
+  {
+    "City": "Healdsburg",
+    "Population": "11,569",
+    "Total lawenforcementemployees": 24,
+    "Total officers": 16,
+    "Total civilians": 8
+  },
+  {
+    "City": "Hemet",
+    "Population": "82,412",
+    "Total lawenforcementemployees": 83,
+    "Total officers": 59,
+    "Total civilians": 24
+  },
+  {
+    "City": "Hercules",
+    "Population": "25,026",
+    "Total lawenforcementemployees": 24,
+    "Total officers": 21,
+    "Total civilians": 3
+  },
+  {
+    "City": "Hermosa Beach",
+    "Population": "19,873",
+    "Total lawenforcementemployees": 59,
+    "Total officers": 34,
+    "Total civilians": 25
+  },
+  {
+    "City": "Hillsborough",
+    "Population": "11,382",
+    "Total lawenforcementemployees": 30,
+    "Total officers": 23,
+    "Total civilians": 7
+  },
+  {
+    "City": "Hollister",
+    "Population": "36,967",
+    "Total lawenforcementemployees": 31,
+    "Total officers": 25,
+    "Total civilians": 6
+  },
+  {
+    "City": "Huntington Beach",
+    "Population": "199,152",
+    "Total lawenforcementemployees": 321,
+    "Total officers": 207,
+    "Total civilians": 114
+  },
+  {
+    "City": "Huntington Park",
+    "Population": "59,064",
+    "Total lawenforcementemployees": 98,
+    "Total officers": 61,
+    "Total civilians": 37
+  },
+  {
+    "City": "Huron",
+    "Population": "6,792",
+    "Total lawenforcementemployees": 6,
+    "Total officers": 4,
+    "Total civilians": 2
+  },
+  {
+    "City": "Imperial",
+    "Population": "16,535",
+    "Total lawenforcementemployees": 19,
+    "Total officers": 16,
+    "Total civilians": 3
+  },
+  {
+    "City": "Indio",
+    "Population": "84,540",
+    "Total lawenforcementemployees": 99,
+    "Total officers": 64,
+    "Total civilians": 35
+  },
+  {
+    "City": "Inglewood",
+    "Population": "111,997",
+    "Total lawenforcementemployees": 230,
+    "Total officers": 162,
+    "Total civilians": 68
+  },
+  {
+    "City": "Ione",
+    "Population": "6,773",
+    "Total lawenforcementemployees": 7,
+    "Total officers": 7,
+    "Total civilians": 0
+  },
+  {
+    "City": "Irvine",
+    "Population": "242,971",
+    "Total lawenforcementemployees": 289,
+    "Total officers": 200,
+    "Total civilians": 89
+  },
+  {
+    "City": "Irwindale",
+    "Population": "1,426",
+    "Total lawenforcementemployees": 33,
+    "Total officers": 25,
+    "Total civilians": 8
+  },
+  {
+    "City": "Jackson",
+    "Population": "4,534",
+    "Total lawenforcementemployees": 10,
+    "Total officers": 9,
+    "Total civilians": 1
+  },
+  {
+    "City": "Kensington",
+    "Population": "5,281",
+    "Total lawenforcementemployees": 10,
+    "Total officers": 10,
+    "Total civilians": 0
+  },
+  {
+    "City": "Kerman",
+    "Population": "14,538",
+    "Total lawenforcementemployees": 21,
+    "Total officers": 18,
+    "Total civilians": 3
+  },
+  {
+    "City": "King City",
+    "Population": "13,336",
+    "Total lawenforcementemployees": 13,
+    "Total officers": 11,
+    "Total civilians": 2
+  },
+  {
+    "City": "Kingsburg",
+    "Population": "11,762",
+    "Total lawenforcementemployees": 17,
+    "Total officers": 11,
+    "Total civilians": 6
+  },
+  {
+    "City": "Laguna Beach",
+    "Population": "23,371",
+    "Total lawenforcementemployees": 82,
+    "Total officers": 45,
+    "Total civilians": 37
+  },
+  {
+    "City": "La Habra",
+    "Population": "61,964",
+    "Total lawenforcementemployees": 101,
+    "Total officers": 66,
+    "Total civilians": 35
+  },
+  {
+    "City": "Lakeport",
+    "Population": "4,763",
+    "Total lawenforcementemployees": 11,
+    "Total officers": 10,
+    "Total civilians": 1
+  },
+  {
+    "City": "Lake Shastina",
+    "Population": "2,506",
+    "Total lawenforcementemployees": 3,
+    "Total officers": 3,
+    "Total civilians": 0
+  },
+  {
+    "City": "La Mesa",
+    "Population": "59,005",
+    "Total lawenforcementemployees": 93,
+    "Total officers": 66,
+    "Total civilians": 27
+  },
+  {
+    "City": "La Palma",
+    "Population": "15,977",
+    "Total lawenforcementemployees": 30,
+    "Total officers": 22,
+    "Total civilians": 8
+  },
+  {
+    "City": "La Verne",
+    "Population": "32,067",
+    "Total lawenforcementemployees": 59,
+    "Total officers": 38,
+    "Total civilians": 21
+  },
+  {
+    "City": "Lemoore",
+    "Population": "25,080",
+    "Total lawenforcementemployees": 36,
+    "Total officers": 29,
+    "Total civilians": 7
+  },
+  {
+    "City": "Lincoln",
+    "Population": "45,792",
+    "Total lawenforcementemployees": 27,
+    "Total officers": 19,
+    "Total civilians": 8
+  },
+  {
+    "City": "Lindsay",
+    "Population": "13,300",
+    "Total lawenforcementemployees": 22,
+    "Total officers": 18,
+    "Total civilians": 4
+  },
+  {
+    "City": "Livermore",
+    "Population": "86,147",
+    "Total lawenforcementemployees": 127,
+    "Total officers": 85,
+    "Total civilians": 42
+  },
+  {
+    "City": "Livingston",
+    "Population": "13,690",
+    "Total lawenforcementemployees": 25,
+    "Total officers": 17,
+    "Total civilians": 8
+  },
+  {
+    "City": "Lodi",
+    "Population": "63,601",
+    "Total lawenforcementemployees": 100,
+    "Total officers": 70,
+    "Total civilians": 30
+  },
+  {
+    "City": "Lompoc",
+    "Population": "43,809",
+    "Total lawenforcementemployees": 69,
+    "Total officers": 47,
+    "Total civilians": 22
+  },
+  {
+    "City": "Long Beach",
+    "Population": "471,123",
+    "Total lawenforcementemployees": "1,105",
+    "Total officers": 786,
+    "Total civilians": 319
+  },
+  {
+    "City": "Los Alamitos",
+    "Population": "11,708",
+    "Total lawenforcementemployees": 26,
+    "Total officers": 22,
+    "Total civilians": 4
+  },
+  {
+    "City": "Los Altos",
+    "Population": "30,256",
+    "Total lawenforcementemployees": 44,
+    "Total officers": 29,
+    "Total civilians": 15
+  },
+  {
+    "City": "Los Angeles",
+    "Population": "3,906,772",
+    "Total lawenforcementemployees": "12,774",
+    "Total officers": "9,907",
+    "Total civilians": "2,867"
+  },
+  {
+    "City": "Los Banos",
+    "Population": "37,011",
+    "Total lawenforcementemployees": 61,
+    "Total officers": 40,
+    "Total civilians": 21
+  },
+  {
+    "City": "Los Gatos",
+    "Population": "30,614",
+    "Total lawenforcementemployees": 60,
+    "Total officers": 40,
+    "Total civilians": 20
+  },
+  {
+    "City": "Madera",
+    "Population": "63,495",
+    "Total lawenforcementemployees": 69,
+    "Total officers": 51,
+    "Total civilians": 18
+  },
+  {
+    "City": "Mammoth Lakes",
+    "Population": "8,033",
+    "Total lawenforcementemployees": 14,
+    "Total officers": 11,
+    "Total civilians": 3
+  },
+  {
+    "City": "Manhattan Beach",
+    "Population": "35,872",
+    "Total lawenforcementemployees": 104,
+    "Total officers": 63,
+    "Total civilians": 41
+  },
+  {
+    "City": "Manteca",
+    "Population": "73,055",
+    "Total lawenforcementemployees": 85,
+    "Total officers": 63,
+    "Total civilians": 22
+  },
+  {
+    "City": "Marina",
+    "Population": "20,530",
+    "Total lawenforcementemployees": 36,
+    "Total officers": 29,
+    "Total civilians": 7
+  },
+  {
+    "City": "Martinez",
+    "Population": "37,416",
+    "Total lawenforcementemployees": 47,
+    "Total officers": 34,
+    "Total civilians": 13
+  },
+  {
+    "City": "Marysville",
+    "Population": "12,242",
+    "Total lawenforcementemployees": 25,
+    "Total officers": 16,
+    "Total civilians": 9
+  },
+  {
+    "City": "McFarland",
+    "Population": "12,346",
+    "Total lawenforcementemployees": 17,
+    "Total officers": 14,
+    "Total civilians": 3
+  },
+  {
+    "City": "Mendota",
+    "Population": "11,480",
+    "Total lawenforcementemployees": 13,
+    "Total officers": 11,
+    "Total civilians": 2
+  },
+  {
+    "City": "Menlo Park",
+    "Population": "33,321",
+    "Total lawenforcementemployees": 67,
+    "Total officers": 46,
+    "Total civilians": 21
+  },
+  {
+    "City": "Merced",
+    "Population": "81,603",
+    "Total lawenforcementemployees": 116,
+    "Total officers": 84,
+    "Total civilians": 32
+  },
+  {
+    "City": "Mill Valley",
+    "Population": "14,411",
+    "Total lawenforcementemployees": 26,
+    "Total officers": 20,
+    "Total civilians": 6
+  },
+  {
+    "City": "Milpitas",
+    "Population": "70,568",
+    "Total lawenforcementemployees": 105,
+    "Total officers": 81,
+    "Total civilians": 24
+  },
+  {
+    "City": "Modesto",
+    "Population": "205,820",
+    "Total lawenforcementemployees": 280,
+    "Total officers": 207,
+    "Total civilians": 73
+  },
+  {
+    "City": "Monrovia",
+    "Population": "37,225",
+    "Total lawenforcementemployees": 74,
+    "Total officers": 46,
+    "Total civilians": 28
+  },
+  {
+    "City": "Montclair",
+    "Population": "38,347",
+    "Total lawenforcementemployees": 65,
+    "Total officers": 48,
+    "Total civilians": 17
+  },
+  {
+    "City": "Montebello",
+    "Population": "63,737",
+    "Total lawenforcementemployees": 104,
+    "Total officers": 72,
+    "Total civilians": 32
+  },
+  {
+    "City": "Monterey",
+    "Population": "28,512",
+    "Total lawenforcementemployees": 59,
+    "Total officers": 44,
+    "Total civilians": 15
+  },
+  {
+    "City": "Monterey Park",
+    "Population": "61,284",
+    "Total lawenforcementemployees": 97,
+    "Total officers": 69,
+    "Total civilians": 28
+  },
+  {
+    "City": "Moraga",
+    "Population": "16,953",
+    "Total lawenforcementemployees": 13,
+    "Total officers": 12,
+    "Total civilians": 1
+  },
+  {
+    "City": "Morgan Hill",
+    "Population": "41,585",
+    "Total lawenforcementemployees": 57,
+    "Total officers": 38,
+    "Total civilians": 19
+  },
+  {
+    "City": "Morro Bay",
+    "Population": "10,516",
+    "Total lawenforcementemployees": 19,
+    "Total officers": 17,
+    "Total civilians": 2
+  },
+  {
+    "City": "Mountain View",
+    "Population": "78,759",
+    "Total lawenforcementemployees": 134,
+    "Total officers": 92,
+    "Total civilians": 42
+  },
+  {
+    "City": "Mount Shasta",
+    "Population": "3,267",
+    "Total lawenforcementemployees": 11,
+    "Total officers": 8,
+    "Total civilians": 3
+  },
+  {
+    "City": "Murrieta",
+    "Population": "108,376",
+    "Total lawenforcementemployees": 122,
+    "Total officers": 83,
+    "Total civilians": 39
+  },
+  {
+    "City": "Napa",
+    "Population": "79,572",
+    "Total lawenforcementemployees": 117,
+    "Total officers": 70,
+    "Total civilians": 47
+  },
+  {
+    "City": "National City",
+    "Population": "60,130",
+    "Total lawenforcementemployees": 112,
+    "Total officers": 83,
+    "Total civilians": 29
+  },
+  {
+    "City": "Nevada City",
+    "Population": "3,055",
+    "Total lawenforcementemployees": 11,
+    "Total officers": 10,
+    "Total civilians": 1
+  },
+  {
+    "City": "Newark",
+    "Population": "44,467",
+    "Total lawenforcementemployees": 77,
+    "Total officers": 56,
+    "Total civilians": 21
+  },
+  {
+    "City": "Newman",
+    "Population": "10,742",
+    "Total lawenforcementemployees": 14,
+    "Total officers": 11,
+    "Total civilians": 3
+  },
+  {
+    "City": "Newport Beach",
+    "Population": "87,759",
+    "Total lawenforcementemployees": 217,
+    "Total officers": 139,
+    "Total civilians": 78
+  },
+  {
+    "City": "Novato",
+    "Population": "54,756",
+    "Total lawenforcementemployees": 77,
+    "Total officers": 52,
+    "Total civilians": 25
+  },
+  {
+    "City": "Oakdale",
+    "Population": "21,651",
+    "Total lawenforcementemployees": 29,
+    "Total officers": 19,
+    "Total civilians": 10
+  },
+  {
+    "City": "Oakland",
+    "Population": "409,994",
+    "Total lawenforcementemployees": "1,094",
+    "Total officers": 715,
+    "Total civilians": 379
+  },
+  {
+    "City": "Oceanside",
+    "Population": "174,102",
+    "Total lawenforcementemployees": 277,
+    "Total officers": 203,
+    "Total civilians": 74
+  },
+  {
+    "City": "Ontario",
+    "Population": "168,278",
+    "Total lawenforcementemployees": 322,
+    "Total officers": 228,
+    "Total civilians": 94
+  },
+  {
+    "City": "Orange",
+    "Population": "140,767",
+    "Total lawenforcementemployees": 209,
+    "Total officers": 150,
+    "Total civilians": 59
+  },
+  {
+    "City": "Orange Cove",
+    "Population": "9,704",
+    "Total lawenforcementemployees": 12,
+    "Total officers": 11,
+    "Total civilians": 1
+  },
+  {
+    "City": "Orland",
+    "Population": "7,511",
+    "Total lawenforcementemployees": 12,
+    "Total officers": 10,
+    "Total civilians": 2
+  },
+  {
+    "City": "Oroville",
+    "Population": "16,090",
+    "Total lawenforcementemployees": 33,
+    "Total officers": 20,
+    "Total civilians": 13
+  },
+  {
+    "City": "Oxnard",
+    "Population": "204,159",
+    "Total lawenforcementemployees": 369,
+    "Total officers": 241,
+    "Total civilians": 128
+  },
+  {
+    "City": "Pacifica",
+    "Population": "38,925",
+    "Total lawenforcementemployees": 37,
+    "Total officers": 33,
+    "Total civilians": 4
+  },
+  {
+    "City": "Pacific Grove",
+    "Population": "15,612",
+    "Total lawenforcementemployees": 22,
+    "Total officers": 14,
+    "Total civilians": 8
+  },
+  {
+    "City": "Palm Springs",
+    "Population": "46,665",
+    "Total lawenforcementemployees": 120,
+    "Total officers": 83,
+    "Total civilians": 37
+  },
+  {
+    "City": "Palo Alto",
+    "Population": "67,169",
+    "Total lawenforcementemployees": 148,
+    "Total officers": 89,
+    "Total civilians": 59
+  },
+  {
+    "City": "Palos Verdes Estates",
+    "Population": "13,668",
+    "Total lawenforcementemployees": 35,
+    "Total officers": 23,
+    "Total civilians": 12
+  },
+  {
+    "City": "Paradise",
+    "Population": "26,306",
+    "Total lawenforcementemployees": 28,
+    "Total officers": 18,
+    "Total civilians": 10
+  },
+  {
+    "City": "Parlier",
+    "Population": "14,948",
+    "Total lawenforcementemployees": 9,
+    "Total officers": 8,
+    "Total civilians": 1
+  },
+  {
+    "City": "Pasadena",
+    "Population": "140,373",
+    "Total lawenforcementemployees": 329,
+    "Total officers": 226,
+    "Total civilians": 103
+  },
+  {
+    "City": "Paso Robles",
+    "Population": "31,117",
+    "Total lawenforcementemployees": 46,
+    "Total officers": 33,
+    "Total civilians": 13
+  },
+  {
+    "City": "Petaluma",
+    "Population": "59,803",
+    "Total lawenforcementemployees": 78,
+    "Total officers": 57,
+    "Total civilians": 21
+  },
+  {
+    "City": "Piedmont",
+    "Population": "11,170",
+    "Total lawenforcementemployees": 29,
+    "Total officers": 20,
+    "Total civilians": 9
+  },
+  {
+    "City": "Pinole",
+    "Population": "19,034",
+    "Total lawenforcementemployees": 37,
+    "Total officers": 25,
+    "Total civilians": 12
+  },
+  {
+    "City": "Pismo Beach",
+    "Population": "7,910",
+    "Total lawenforcementemployees": 30,
+    "Total officers": 21,
+    "Total civilians": 9
+  },
+  {
+    "City": "Pittsburg",
+    "Population": "67,509",
+    "Total lawenforcementemployees": 91,
+    "Total officers": 73,
+    "Total civilians": 18
+  },
+  {
+    "City": "Placentia",
+    "Population": "52,513",
+    "Total lawenforcementemployees": 64,
+    "Total officers": 45,
+    "Total civilians": 19
+  },
+  {
+    "City": "Placerville",
+    "Population": "10,486",
+    "Total lawenforcementemployees": 24,
+    "Total officers": 17,
+    "Total civilians": 7
+  },
+  {
+    "City": "Pleasant Hill",
+    "Population": "34,363",
+    "Total lawenforcementemployees": 55,
+    "Total officers": 40,
+    "Total civilians": 15
+  },
+  {
+    "City": "Pleasanton",
+    "Population": "75,060",
+    "Total lawenforcementemployees": 113,
+    "Total officers": 81,
+    "Total civilians": 32
+  },
+  {
+    "City": "Pomona",
+    "Population": "151,899",
+    "Total lawenforcementemployees": 257,
+    "Total officers": 157,
+    "Total civilians": 100
+  },
+  {
+    "City": "Porterville",
+    "Population": "55,391",
+    "Total lawenforcementemployees": 91,
+    "Total officers": 62,
+    "Total civilians": 29
+  },
+  {
+    "City": "Port Hueneme",
+    "Population": "22,247",
+    "Total lawenforcementemployees": 29,
+    "Total officers": 21,
+    "Total civilians": 8
+  },
+  {
+    "City": "Red Bluff",
+    "Population": "14,103",
+    "Total lawenforcementemployees": 33,
+    "Total officers": 23,
+    "Total civilians": 10
+  },
+  {
+    "City": "Redding",
+    "Population": "91,426",
+    "Total lawenforcementemployees": 127,
+    "Total officers": 96,
+    "Total civilians": 31
+  },
+  {
+    "City": "Redlands",
+    "Population": "70,295",
+    "Total lawenforcementemployees": 110,
+    "Total officers": 76,
+    "Total civilians": 34
+  },
+  {
+    "City": "Redondo Beach",
+    "Population": "68,075",
+    "Total lawenforcementemployees": 143,
+    "Total officers": 90,
+    "Total civilians": 53
+  },
+  {
+    "City": "Redwood City",
+    "Population": "81,870",
+    "Total lawenforcementemployees": 117,
+    "Total officers": 95,
+    "Total civilians": 22
+  },
+  {
+    "City": "Reedley",
+    "Population": "25,186",
+    "Total lawenforcementemployees": 41,
+    "Total officers": 27,
+    "Total civilians": 14
+  },
+  {
+    "City": "Rialto",
+    "Population": "102,540",
+    "Total lawenforcementemployees": 138,
+    "Total officers": 100,
+    "Total civilians": 38
+  },
+  {
+    "City": "Richmond",
+    "Population": "108,464",
+    "Total lawenforcementemployees": 274,
+    "Total officers": 180,
+    "Total civilians": 94
+  },
+  {
+    "City": "Ridgecrest",
+    "Population": "28,830",
+    "Total lawenforcementemployees": 48,
+    "Total officers": 32,
+    "Total civilians": 16
+  },
+  {
+    "City": "Rio Dell",
+    "Population": "3,358",
+    "Total lawenforcementemployees": 5,
+    "Total officers": 5,
+    "Total civilians": 0
+  },
+  {
+    "City": "Rio Vista",
+    "Population": "7,825",
+    "Total lawenforcementemployees": 12,
+    "Total officers": 11,
+    "Total civilians": 1
+  },
+  {
+    "City": "Ripon",
+    "Population": "14,859",
+    "Total lawenforcementemployees": 31,
+    "Total officers": 23,
+    "Total civilians": 8
+  },
+  {
+    "City": "Riverside",
+    "Population": "319,453",
+    "Total lawenforcementemployees": 520,
+    "Total officers": 364,
+    "Total civilians": 156
+  },
+  {
+    "City": "Rocklin",
+    "Population": "60,371",
+    "Total lawenforcementemployees": 80,
+    "Total officers": 52,
+    "Total civilians": 28
+  },
+  {
+    "City": "Rohnert Park",
+    "Population": "41,535",
+    "Total lawenforcementemployees": 74,
+    "Total officers": 54,
+    "Total civilians": 20
+  },
+  {
+    "City": "Roseville",
+    "Population": "128,997",
+    "Total lawenforcementemployees": 184,
+    "Total officers": 119,
+    "Total civilians": 65
+  },
+  {
+    "City": "Ross",
+    "Population": "2,476",
+    "Total lawenforcementemployees": 8,
+    "Total officers": 8,
+    "Total civilians": 0
+  },
+  {
+    "City": "Sacramento",
+    "Population": "482,767",
+    "Total lawenforcementemployees": 921,
+    "Total officers": 623,
+    "Total civilians": 298
+  },
+  {
+    "City": "Salinas",
+    "Population": "156,908",
+    "Total lawenforcementemployees": 181,
+    "Total officers": 135,
+    "Total civilians": 46
+  },
+  {
+    "City": "San Bernardino",
+    "Population": "214,588",
+    "Total lawenforcementemployees": 358,
+    "Total officers": 225,
+    "Total civilians": 133
+  },
+  {
+    "City": "San Bruno",
+    "Population": "42,787",
+    "Total lawenforcementemployees": 62,
+    "Total officers": 46,
+    "Total civilians": 16
+  },
+  {
+    "City": "Sand City",
+    "Population": 343,
+    "Total lawenforcementemployees": 9,
+    "Total officers": 8,
+    "Total civilians": 1
+  },
+  {
+    "City": "San Diego",
+    "Population": "1,368,690",
+    "Total lawenforcementemployees": "2,520",
+    "Total officers": "1,876",
+    "Total civilians": 644
+  },
+  {
+    "City": "San Fernando",
+    "Population": "24,362",
+    "Total lawenforcementemployees": 39,
+    "Total officers": 28,
+    "Total civilians": 11
+  },
+  {
+    "City": "San Francisco",
+    "Population": "850,294",
+    "Total lawenforcementemployees": "2,588",
+    "Total officers": "2,137",
+    "Total civilians": 451
+  },
+  {
+    "City": "San Gabriel",
+    "Population": "40,409",
+    "Total lawenforcementemployees": 65,
+    "Total officers": 51,
+    "Total civilians": 14
+  },
+  {
+    "City": "Sanger",
+    "Population": "24,771",
+    "Total lawenforcementemployees": 30,
+    "Total officers": 26,
+    "Total civilians": 4
+  },
+  {
+    "City": "San Jose",
+    "Population": "1,009,679",
+    "Total lawenforcementemployees": "1,377",
+    "Total officers": 966,
+    "Total civilians": 411
+  },
+  {
+    "City": "San Leandro",
+    "Population": "88,690",
+    "Total lawenforcementemployees": 136,
+    "Total officers": 93,
+    "Total civilians": 43
+  },
+  {
+    "City": "San Luis Obispo",
+    "Population": "46,672",
+    "Total lawenforcementemployees": 82,
+    "Total officers": 59,
+    "Total civilians": 23
+  },
+  {
+    "City": "San Marino",
+    "Population": "13,371",
+    "Total lawenforcementemployees": 35,
+    "Total officers": 28,
+    "Total civilians": 7
+  },
+  {
+    "City": "San Mateo",
+    "Population": "102,082",
+    "Total lawenforcementemployees": 140,
+    "Total officers": 106,
+    "Total civilians": 34
+  },
+  {
+    "City": "San Pablo",
+    "Population": "29,831",
+    "Total lawenforcementemployees": 71,
+    "Total officers": 49,
+    "Total civilians": 22
+  },
+  {
+    "City": "San Rafael",
+    "Population": "59,292",
+    "Total lawenforcementemployees": 83,
+    "Total officers": 63,
+    "Total civilians": 20
+  },
+  {
+    "City": "San Ramon",
+    "Population": "75,049",
+    "Total lawenforcementemployees": 77,
+    "Total officers": 61,
+    "Total civilians": 16
+  },
+  {
+    "City": "Santa Ana",
+    "Population": "336,462",
+    "Total lawenforcementemployees": 496,
+    "Total officers": 264,
+    "Total civilians": 232
+  },
+  {
+    "City": "Santa Barbara",
+    "Population": "90,889",
+    "Total lawenforcementemployees": 206,
+    "Total officers": 144,
+    "Total civilians": 62
+  },
+  {
+    "City": "Santa Clara",
+    "Population": "121,114",
+    "Total lawenforcementemployees": 203,
+    "Total officers": 141,
+    "Total civilians": 62
+  },
+  {
+    "City": "Santa Cruz",
+    "Population": "63,440",
+    "Total lawenforcementemployees": 110,
+    "Total officers": 92,
+    "Total civilians": 18
+  },
+  {
+    "City": "Santa Maria",
+    "Population": "102,885",
+    "Total lawenforcementemployees": 156,
+    "Total officers": 110,
+    "Total civilians": 46
+  },
+  {
+    "City": "Santa Monica",
+    "Population": "93,151",
+    "Total lawenforcementemployees": 381,
+    "Total officers": 202,
+    "Total civilians": 179
+  },
+  {
+    "City": "Santa Paula",
+    "Population": "30,269",
+    "Total lawenforcementemployees": 40,
+    "Total officers": 30,
+    "Total civilians": 10
+  },
+  {
+    "City": "Santa Rosa",
+    "Population": "172,991",
+    "Total lawenforcementemployees": 238,
+    "Total officers": 166,
+    "Total civilians": 72
+  },
+  {
+    "City": "Sausalito",
+    "Population": "7,137",
+    "Total lawenforcementemployees": 23,
+    "Total officers": 18,
+    "Total civilians": 5
+  },
+  {
+    "City": "Scotts Valley",
+    "Population": "11,795",
+    "Total lawenforcementemployees": 28,
+    "Total officers": 20,
+    "Total civilians": 8
+  },
+  {
+    "City": "Seal Beach",
+    "Population": "24,727",
+    "Total lawenforcementemployees": 45,
+    "Total officers": 31,
+    "Total civilians": 14
+  },
+  {
+    "City": "Seaside",
+    "Population": "34,350",
+    "Total lawenforcementemployees": 44,
+    "Total officers": 34,
+    "Total civilians": 10
+  },
+  {
+    "City": "Sebastopol",
+    "Population": "7,646",
+    "Total lawenforcementemployees": 19,
+    "Total officers": 14,
+    "Total civilians": 5
+  },
+  {
+    "City": "Selma",
+    "Population": "24,404",
+    "Total lawenforcementemployees": 39,
+    "Total officers": 29,
+    "Total civilians": 10
+  },
+  {
+    "City": "Shafter",
+    "Population": "17,235",
+    "Total lawenforcementemployees": 30,
+    "Total officers": 21,
+    "Total civilians": 9
+  },
+  {
+    "City": "Sierra Madre",
+    "Population": "11,090",
+    "Total lawenforcementemployees": 18,
+    "Total officers": 14,
+    "Total civilians": 4
+  },
+  {
+    "City": "Signal Hill",
+    "Population": "11,411",
+    "Total lawenforcementemployees": 41,
+    "Total officers": 35,
+    "Total civilians": 6
+  },
+  {
+    "City": "Simi Valley",
+    "Population": "126,604",
+    "Total lawenforcementemployees": 168,
+    "Total officers": 118,
+    "Total civilians": 50
+  },
+  {
+    "City": "Soledad",
+    "Population": "25,807",
+    "Total lawenforcementemployees": 17,
+    "Total officers": 14,
+    "Total civilians": 3
+  },
+  {
+    "City": "Sonora",
+    "Population": "4,786",
+    "Total lawenforcementemployees": 19,
+    "Total officers": 13,
+    "Total civilians": 6
+  },
+  {
+    "City": "South Gate",
+    "Population": "95,981",
+    "Total lawenforcementemployees": 112,
+    "Total officers": 76,
+    "Total civilians": 36
+  },
+  {
+    "City": "South Lake Tahoe",
+    "Population": "21,379",
+    "Total lawenforcementemployees": 52,
+    "Total officers": 33,
+    "Total civilians": 19
+  },
+  {
+    "City": "South Pasadena",
+    "Population": "26,041",
+    "Total lawenforcementemployees": 48,
+    "Total officers": 32,
+    "Total civilians": 16
+  },
+  {
+    "City": "South San Francisco",
+    "Population": "66,793",
+    "Total lawenforcementemployees": 107,
+    "Total officers": 77,
+    "Total civilians": 30
+  },
+  {
+    "City": "Stallion Springs",
+    "Population": "2,587",
+    "Total lawenforcementemployees": 3,
+    "Total officers": 3,
+    "Total civilians": 0
+  },
+  {
+    "City": "St. Helena",
+    "Population": "5,978",
+    "Total lawenforcementemployees": 17,
+    "Total officers": 12,
+    "Total civilians": 5
+  },
+  {
+    "City": "Stockton",
+    "Population": "299,519",
+    "Total lawenforcementemployees": 552,
+    "Total officers": 371,
+    "Total civilians": 181
+  },
+  {
+    "City": "Suisun City",
+    "Population": "28,986",
+    "Total lawenforcementemployees": 32,
+    "Total officers": 22,
+    "Total civilians": 10
+  },
+  {
+    "City": "Sunnyvale",
+    "Population": "149,384",
+    "Total lawenforcementemployees": 281,
+    "Total officers": 205,
+    "Total civilians": 76
+  },
+  {
+    "City": "Susanville",
+    "Population": "15,048",
+    "Total lawenforcementemployees": 18,
+    "Total officers": 16,
+    "Total civilians": 2
+  },
+  {
+    "City": "Sutter Creek",
+    "Population": "2,438",
+    "Total lawenforcementemployees": 5,
+    "Total officers": 5,
+    "Total civilians": 0
+  },
+  {
+    "City": "Taft",
+    "Population": "8,895",
+    "Total lawenforcementemployees": 80,
+    "Total officers": 72,
+    "Total civilians": 8
+  },
+  {
+    "City": "Tehachapi",
+    "Population": "12,997",
+    "Total lawenforcementemployees": 18,
+    "Total officers": 16,
+    "Total civilians": 2
+  },
+  {
+    "City": "Tiburon",
+    "Population": "9,232",
+    "Total lawenforcementemployees": 16,
+    "Total officers": 13,
+    "Total civilians": 3
+  },
+  {
+    "City": "Torrance",
+    "Population": "147,971",
+    "Total lawenforcementemployees": 330,
+    "Total officers": 210,
+    "Total civilians": 120
+  },
+  {
+    "City": "Tracy",
+    "Population": "85,078",
+    "Total lawenforcementemployees": 123,
+    "Total officers": 84,
+    "Total civilians": 39
+  },
+  {
+    "City": "Truckee",
+    "Population": "16,161",
+    "Total lawenforcementemployees": 36,
+    "Total officers": 24,
+    "Total civilians": 12
+  },
+  {
+    "City": "Tulare",
+    "Population": "61,596",
+    "Total lawenforcementemployees": 110,
+    "Total officers": 73,
+    "Total civilians": 37
+  },
+  {
+    "City": "Tulelake",
+    "Population": 988,
+    "Total lawenforcementemployees": 1,
+    "Total officers": 1,
+    "Total civilians": 0
+  },
+  {
+    "City": "Turlock",
+    "Population": "70,786",
+    "Total lawenforcementemployees": 106,
+    "Total officers": 70,
+    "Total civilians": 36
+  },
+  {
+    "City": "Tustin",
+    "Population": "79,046",
+    "Total lawenforcementemployees": 141,
+    "Total officers": 92,
+    "Total civilians": 49
+  },
+  {
+    "City": "Ukiah",
+    "Population": "15,836",
+    "Total lawenforcementemployees": 47,
+    "Total officers": 30,
+    "Total civilians": 17
+  },
+  {
+    "City": "Union City",
+    "Population": "73,268",
+    "Total lawenforcementemployees": 95,
+    "Total officers": 71,
+    "Total civilians": 24
+  },
+  {
+    "City": "Upland",
+    "Population": "75,790",
+    "Total lawenforcementemployees": 89,
+    "Total officers": 66,
+    "Total civilians": 23
+  },
+  {
+    "City": "Vacaville",
+    "Population": "94,701",
+    "Total lawenforcementemployees": 146,
+    "Total officers": 94,
+    "Total civilians": 52
+  },
+  {
+    "City": "Vallejo",
+    "Population": "119,504",
+    "Total lawenforcementemployees": 134,
+    "Total officers": 101,
+    "Total civilians": 33
+  },
+  {
+    "City": "Ventura",
+    "Population": "109,246",
+    "Total lawenforcementemployees": 162,
+    "Total officers": 127,
+    "Total civilians": 35
+  },
+  {
+    "City": "Visalia",
+    "Population": "128,488",
+    "Total lawenforcementemployees": 206,
+    "Total officers": 139,
+    "Total civilians": 67
+  },
+  {
+    "City": "Walnut Creek",
+    "Population": "67,555",
+    "Total lawenforcementemployees": 114,
+    "Total officers": 84,
+    "Total civilians": 30
+  },
+  {
+    "City": "Watsonville",
+    "Population": "52,778",
+    "Total lawenforcementemployees": 83,
+    "Total officers": 61,
+    "Total civilians": 22
+  },
+  {
+    "City": "Weed",
+    "Population": "2,894",
+    "Total lawenforcementemployees": 14,
+    "Total officers": 9,
+    "Total civilians": 5
+  },
+  {
+    "City": "West Covina",
+    "Population": "108,136",
+    "Total lawenforcementemployees": 142,
+    "Total officers": 86,
+    "Total civilians": 56
+  },
+  {
+    "City": "Westminster",
+    "Population": "92,217",
+    "Total lawenforcementemployees": 123,
+    "Total officers": 89,
+    "Total civilians": 34
+  },
+  {
+    "City": "Westmorland",
+    "Population": "2,264",
+    "Total lawenforcementemployees": 5,
+    "Total officers": 5,
+    "Total civilians": 0
+  },
+  {
+    "City": "West Sacramento",
+    "Population": "50,152",
+    "Total lawenforcementemployees": 86,
+    "Total officers": 65,
+    "Total civilians": 21
+  },
+  {
+    "City": "Wheatland",
+    "Population": "3,521",
+    "Total lawenforcementemployees": 7,
+    "Total officers": 6,
+    "Total civilians": 1
+  },
+  {
+    "City": "Whittier",
+    "Population": "86,952",
+    "Total lawenforcementemployees": 169,
+    "Total officers": 120,
+    "Total civilians": 49
+  },
+  {
+    "City": "Williams",
+    "Population": "5,188",
+    "Total lawenforcementemployees": 14,
+    "Total officers": 12,
+    "Total civilians": 2
+  },
+  {
+    "City": "Willits",
+    "Population": "4,814",
+    "Total lawenforcementemployees": 19,
+    "Total officers": 12,
+    "Total civilians": 7
+  },
+  {
+    "City": "Willows",
+    "Population": "6,089",
+    "Total lawenforcementemployees": 9,
+    "Total officers": 8,
+    "Total civilians": 1
+  },
+  {
+    "City": "Winters",
+    "Population": "6,962",
+    "Total lawenforcementemployees": 11,
+    "Total officers": 9,
+    "Total civilians": 2
+  },
+  {
+    "City": "Woodlake",
+    "Population": "7,700",
+    "Total lawenforcementemployees": 12,
+    "Total officers": 11,
+    "Total civilians": 1
+  },
+  {
+    "City": "Woodland",
+    "Population": "56,854",
+    "Total lawenforcementemployees": 75,
+    "Total officers": 61,
+    "Total civilians": 14
+  },
+  {
+    "City": "Yreka",
+    "Population": "7,558",
+    "Total lawenforcementemployees": 19,
+    "Total officers": 13,
+    "Total civilians": 6
+  },
+  {
+    "City": "Yuba City",
+    "Population": "65,525",
+    "Total lawenforcementemployees": 81,
+    "Total officers": 57,
+    "Total civilians": 24
+  }
+]
