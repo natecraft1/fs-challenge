@@ -18,7 +18,6 @@ function drawGraph(data) {
         width = 960 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
 
-
     var xValue, xMap, xAxis, xScale = d3.scale.linear().range([0, width]);
     var yValue, yMap, yAxis, yScale = d3.scale.linear().range([0, height]);
         
@@ -50,6 +49,7 @@ function drawGraph(data) {
         .attr("class", "tooltip")
         .style("opacity", 0);
 
+    // x-axis
     svg.append("g")
          .attr("class", "x axis")
          .attr("transform", "translate(0," + height + ")")

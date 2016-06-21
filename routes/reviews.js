@@ -9,22 +9,14 @@ router.get('/', function(req, res, next) {
   
   res.render('reviews');
 
-  
-
-  // if (n >= 1000) {
-  //   fs.writeFile('output.json', JSON.stringify(jsonArray, null, 4), function(err) {
-  //     console.log('File successfully written!');
-  //   })
-  // }
-
 });
 
 router.get('/fetch-reviews', function(req, res, next) {
-  console.log("CALLED !!!")
+
   url = 'http://www.yelp.com/biz/wurstk%C3%BCche-los-angeles-2?start=';
   var jsonArray = [];
   
-  for (var i = 0; i <= 0; i+=20) {
+  for (var i = 2020; i <= 3000; i+=20) {
     jsonArray.push(requestRestaurantReviews(url, i))
   }
 
@@ -33,8 +25,14 @@ router.get('/fetch-reviews', function(req, res, next) {
     console.log("yeahya")
     data = data.reduce(function(x, y) { return x.concat(y) })
     console.log(data.length)
-    
+
+    fs.writeFile('restaurants3.json', JSON.stringify(data, null, 4), function(err) {
+      console.log('File successfully written!');
+    })
+
     res.send(data)
+
+
 
   })
 
