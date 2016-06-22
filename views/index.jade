@@ -1,12 +1,14 @@
 extends layout
 
 block content
-  header
-    h1.selected.crime.officers
-      | Crime &amp; Officers
-    h1.wealth.officers
-      | Wealth &amp; Officers
-    h1.crime.wealth
-      | Crime &amp; Wealth
-    
+  div.graph
+    header
+      h1.selected.crime.officers
+        | Crime &amp; Officers
+      h1.wealth.officers
+        | Wealth &amp; Officers
+      h1.crime.wealth
+        | Crime &amp; Wealth
+  a.reviews(href='/reviews')
+    | Wurstküche Reviews
   script(src="javascripts/index.js")

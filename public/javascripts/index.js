@@ -38,7 +38,7 @@ function drawGraph(data) {
     var circleRadiusScale = d3.scale.linear().domain([10000, d3.max(data, function(d) { return d.population; })]).range([4, 40])
 
     // add the graph canvas to the body of the webpage
-    var svg = d3.select("body").append("svg")
+    var svg = d3.select(".graph").append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
       .append("g")

@@ -1,7 +1,12 @@
 extends layout
 
 block content
-  | Hello 
-
-
+  link(rel='stylesheet', href='/stylesheets/reviews.css')
+  header
+    div.title 
+      | Wurstküche
+    h1.selected.seasonal
+      | Seasonal Ratings
+    h1.sentiment
+      | Text Sentiment Score
   script(src="javascripts/reviews.js")
