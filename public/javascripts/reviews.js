@@ -14,7 +14,7 @@ function drawGraph(data) {
   var margin = {top: 20, right: 20, bottom: 30, left: 60},
       width = 960 - margin.left - margin.right,
       height = 500 - margin.top - margin.bottom;
-  
+
   var seasonalData = formatToSeasonalData(data)
 
   var x = d3.scale.ordinal()
@@ -47,7 +47,7 @@ function drawGraph(data) {
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
   var tooltip = d3.select("body").append("div")
-      .attr("class", "tooltip")
+      .attr("class", "tooltip reviews")
       .style("opacity", 0);
 
   // x-axis
@@ -85,41 +85,96 @@ function drawGraph(data) {
         .attr("y", function(d) { return y(d.avgRating); })
         .attr("height", function(d) { return height - y(d.avgRating); })
 
-  var sentimentData;
+  var minScore, maxScore;
 
   d3.select("h1.sentiment").on("click", function() {
     
+    setXYValues(data)
+
+    var cValue = function(d) { return d.score ;},
+        color = d3.scale.linear().domain([minScore, maxScore]).range(["red", "#97BEFC"])
+
     svg.selectAll(".bar")
         .transition()
         .duration(600)
         .attr("y", height)
         .attr("height", 0);
+  
 
-    if (!sentimentData) sentimentData = formatToSentimentData(data)
+    // Update X Axis
+    svg.select(".x.axis")
+        .transition()
+        .duration(500)
+        .call(xAxis);
 
-    svg.selectAll(".dot")
-          .data(sentimentData)
-        .enter().append("circle")
-          .attr("class", "dot")
-          .attr("r", function(d) { return circleRadiusScale(d.population) })
-          .attr("cx", xMap)
-          .attr("cy", yMap)
+    // Update Y Axis
+    svg.select(".y.axis")
+        .transition()
+        .duration(500)
+        .call(yAxis);
+  
+    setTimeout(function() {
 
+      svg.selectAll(".dot")
+            .data(data)
+          .enter().append("circle")
+            .attr("class", "dot")
+            .attr("r", function(d) { return 3.5 })
+            .style("fill", function(d) { return color(cValue(d));}) 
+            .attr("cx", function(d) { return x(d.date) })
+            .attr("cy", height)
+            .on("mouseover", function(d) {
+                tooltip.transition()
+                    .duration(200)
+                    .style("opacity", .9);
+                tooltip.html(d.review)
+                    .style("left", (d3.event.pageX + 5) + "px")
+                    .style("top", (d3.event.pageY - 28) + "px");
+              })
+              .on("mouseout", function(d) {
+                  tooltip.transition()
+                    .duration(500)
+                    .style("opacity", 0);
+              })
+                  .transition()
+            .duration(500)
+            .attr("cy", function(d) { return y(d.score) })
+
+    }, 500)
+    
+
+    d3.select(".selected").classed("selected", false)
+    d3.select(this).classed("selected", true)
   })
+  
+  function setXYValues(data) {
+    
+    x = d3.time.scale()
+        .domain([data[0].date, data[data.length-1].date])
+        .range([0, width])
+        // .rangeRoundBands([0, width], 0.3);
+    minScore = d3.min(data, function(d) { return d.score })
+    maxScore = d3.max(data, function(d) { return d.score })
 
-}
+    y = d3.scale.linear()
+        .domain([minScore, maxScore])
+        .range([height, 0]);
 
-function formatToSentimentData(data) {
+    xAxis = d3.svg.axis()
+        .scale(x)
+        .orient("bottom")
 
-  return data
-
+    yAxis = d3.svg.axis()
+        .scale(y)
+        .orient("left");
+  }
 }
 
 function formatToSeasonalData(data) {
 
   var parseDate = d3.time.format("%Y-%m-%d").parse;
   data.forEach(function(d) { d.date = parseDate(d.date) })
-
+  data.sort(function(a, b) { return a.date - b.date; })
   var seasonalData = { "Winter": [], "Spring": [], "Summer": [], "Fall": [] }
   
   data.reduce(function(a, b) {
