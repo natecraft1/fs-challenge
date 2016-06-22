@@ -17,28 +17,8 @@ function drawGraph(data) {
 
   var seasonalData = formatToSeasonalData(data)
 
-  var x = d3.scale.ordinal()
-      .domain(seasonalData.map(function (d) {return d.season; }))
-      .rangeRoundBands([0, width], 0.3);
-
-  var y = d3.scale.linear()
-      .range([height, 0])
-      .domain([0, 5]);
-
-  var xAxis = d3.svg.axis()
-      .scale(x)
-      .orient("bottom")
-
-  var yAxis = d3.svg.axis()
-      .scale(y)
-      .ticks(5)
-      .orient("left");
-
-  var xMap = function(d) { return x(d.date); }
-  var yMap = function(d) { return y(+d.rating); }
-
-  var cValue = function(d) { return +d.rating ;},
-       color = d3.scale.linear().domain([5, 0]).range(["#97BEFC", "red"])
+  var x, y, xAxis, yAxis;
+  setXYValuesForSeasonalChart(seasonalData)
 
   var svg = d3.select("body").append("svg")
       .attr("width", width + margin.left + margin.right)
@@ -85,23 +65,67 @@ function drawGraph(data) {
         .attr("y", function(d) { return y(d.avgRating); })
         .attr("height", function(d) { return height - y(d.avgRating); })
 
-  var minScore, maxScore;
+  var minScore, maxScore, cValue, color;
+  var sentimentDataAlreadySet = false
 
   d3.select("h1.sentiment").on("click", function() {
     
-    setXYValues(data)
+    if (!sentimentDataAlreadySet) setSentimentData()
 
-    var cValue = function(d) { return d.score ;},
-        color = d3.scale.linear().domain([minScore, maxScore]).range(["red", "#97BEFC"])
+    setXYValuesForSentimentChart(data) 
+
+    updateAxes()
 
     svg.selectAll(".bar")
         .transition()
         .duration(600)
         .attr("y", height)
         .attr("height", 0);
-  
 
-    // Update X Axis
+    setTimeout(function() {
+      svg.selectAll(".dot")
+            .attr("cx", function(d) { return x(d.date) })
+            .attr("cy", height)
+            .attr("r", 3.5)
+              .transition()
+            .duration(500)
+            .attr("cy", function(d) { return y(d.score) })
+    }, 500)
+    
+   highlightSelectedHeader(this)
+
+  })
+  
+  d3.select('h1.seasonal').on('click', function() {
+
+    setXYValuesForSeasonalChart(seasonalData)
+    updateAxes()
+
+    svg.selectAll(".dot")
+            .transition()
+          .duration(500)
+          .attr("cy", height)
+          .attr("r", 0);
+
+    setTimeout(function() {
+      svg.selectAll(".bar")
+          .transition()
+          .duration(600)
+          .attr("y", function(d) { return y(d.avgRating); })
+          .attr("height", function(d) { return height - y(d.avgRating); })
+    }, 500) 
+    
+    highlightSelectedHeader(this)
+
+  })
+
+  function highlightSelectedHeader(el) {
+    d3.select(".selected").classed("selected", false)
+    d3.select(el).classed("selected", true)
+  }
+
+  function updateAxes() {
+      // Update X Axis
     svg.select(".x.axis")
         .transition()
         .duration(500)
@@ -112,17 +136,21 @@ function drawGraph(data) {
         .transition()
         .duration(500)
         .call(yAxis);
-  
-    setTimeout(function() {
+  }
 
-      svg.selectAll(".dot")
+  function setSentimentData() {
+
+    minScore = d3.min(data, function(d) { return d.score })
+    maxScore = d3.max(data, function(d) { return d.score })
+    cValue = function(d) { return d.score ;},
+    color = d3.scale.linear().domain([minScore, maxScore]).range(["#FFDBDB", "#97BEFC"])
+    
+    svg.selectAll(".dot")
             .data(data)
           .enter().append("circle")
             .attr("class", "dot")
             .attr("r", function(d) { return 3.5 })
             .style("fill", function(d) { return color(cValue(d));}) 
-            .attr("cx", function(d) { return x(d.date) })
-            .attr("cy", height)
             .on("mouseover", function(d) {
                 tooltip.transition()
                     .duration(200)
@@ -136,25 +164,37 @@ function drawGraph(data) {
                     .duration(500)
                     .style("opacity", 0);
               })
-                  .transition()
-            .duration(500)
-            .attr("cy", function(d) { return y(d.score) })
 
-    }, 500)
-    
+    sentimentDataAlreadySet = true
+  }
 
-    d3.select(".selected").classed("selected", false)
-    d3.select(this).classed("selected", true)
-  })
-  
-  function setXYValues(data) {
+  function setXYValuesForSeasonalChart(data) {
     
+    x = d3.scale.ordinal()
+        .domain(data.map(function (d) {return d.season; }))
+        .rangeRoundBands([0, width], 0.3);
+
+    y = d3.scale.linear()
+        .range([height, 0])
+        .domain([0, 5]);
+
+    xAxis = d3.svg.axis()
+        .scale(x)
+        .orient("bottom")
+
+    yAxis = d3.svg.axis()
+        .scale(y)
+        .ticks(5)
+        .orient("left");
+
+  }
+
+  function setXYValuesForSentimentChart(data) {
+
     x = d3.time.scale()
         .domain([data[0].date, data[data.length-1].date])
         .range([0, width])
         // .rangeRoundBands([0, width], 0.3);
-    minScore = d3.min(data, function(d) { return d.score })
-    maxScore = d3.max(data, function(d) { return d.score })
 
     y = d3.scale.linear()
         .domain([minScore, maxScore])
@@ -167,7 +207,9 @@ function drawGraph(data) {
     yAxis = d3.svg.axis()
         .scale(y)
         .orient("left");
+
   }
+
 }
 
 function formatToSeasonalData(data) {
