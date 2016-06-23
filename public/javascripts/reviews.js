@@ -52,7 +52,9 @@ function drawGraph(data) {
        .style("text-anchor", "end")
        .text("Rating");
 
-  svg.selectAll(".bar")
+  svg.append("g")
+        .attr("class", "bars")
+        .selectAll(".bar")
         .data(seasonalData)
       .enter().append("rect")
         .attr("class", "bar")
@@ -70,26 +72,19 @@ function drawGraph(data) {
 
   d3.select("h1.sentiment").on("click", function() {
     
-    if (!sentimentDataAlreadySet) setSentimentData()
+    if (!sentimentDataAlreadySet) { 
+      setSentimentData()
+    }
+    setGraphOpacity(1)
 
     setXYValuesForSentimentChart(data) 
 
     updateAxes()
 
-    svg.selectAll(".bar")
-        .transition()
-        .duration(600)
-        .attr("y", height)
-        .attr("height", 0);
+    animateSeasonalGraphOut()
 
     setTimeout(function() {
-      svg.selectAll(".dot")
-            .attr("cx", function(d) { return x(d.date) })
-            .attr("cy", height)
-            .attr("r", 3.5)
-              .transition()
-            .duration(500)
-            .attr("cy", function(d) { return y(d.score) })
+      animateSentimentGraphIn()
     }, 500)
     
    highlightSelectedHeader(this)
@@ -98,30 +93,97 @@ function drawGraph(data) {
   
   d3.select('h1.seasonal').on('click', function() {
 
+    setGraphOpacity(1)
+
     setXYValuesForSeasonalChart(seasonalData)
+    
     updateAxes()
 
-    svg.selectAll(".dot")
-            .transition()
-          .duration(500)
-          .attr("cy", height)
-          .attr("r", 0);
+    animateSentimentGraphOut()
 
     setTimeout(function() {
-      svg.selectAll(".bar")
-          .transition()
-          .duration(600)
-          .attr("y", function(d) { return y(d.avgRating); })
-          .attr("height", function(d) { return height - y(d.avgRating); })
+      animateSeasonalGraphIn()
     }, 500) 
     
     highlightSelectedHeader(this)
 
   })
 
+  var wordMapCreated = false
+
+  d3.select('h1.wordmap').on("click", function() {
+    
+    setGraphOpacity(0)
+
+    highlightSelectedHeader(this)
+
+    if (!wordMapCreated) {
+      createWordMap(data)
+      wordMapCreated = true
+    }
+
+    d3.select(".wordmap-containter")
+      .style("opacity", 1)
+
+  })
+
+  function animateSeasonalGraphIn() {
+    svg.selectAll(".bar")
+      .transition()
+      .duration(600)
+      .attr("y", function(d) { return y(d.avgRating); })
+      .attr("height", function(d) { return height - y(d.avgRating); })
+  }
+
+  function animateSeasonalGraphOut() {
+     svg.selectAll(".bar")
+      .transition()
+      .duration(600)
+      .attr("y", height)
+      .attr("height", 0);
+  }
+
+  function animateSentimentGraphIn() {
+    svg.selectAll(".dot")
+      .attr("cx", function(d) { return x(d.date) })
+      .attr("cy", height)
+      .attr("r", 3.5)
+        .transition()
+      .duration(500)
+      .attr("cy", function(d) { return y(d.score) })
+  }
+
+  function animateSentimentGraphOut() {
+    svg.selectAll(".dot")
+        .transition()
+      .duration(500)
+      .attr("cy", height)
+      .attr("r", 0);
+  }
+
   function highlightSelectedHeader(el) {
     d3.select(".selected").classed("selected", false)
     d3.select(el).classed("selected", true)
+  }
+
+  function setGraphOpacity(opacity) {
+
+    d3.select(".points")
+      .style("opacity", opacity)
+
+    d3.select(".bars")
+      .style("opacity", opacity)
+
+    d3.select(".axis.x")
+      .style("opacity", opacity)
+
+    d3.select(".axis.y")
+      .style("opacity", opacity)
+
+    if (opacity) {
+      d3.select(".wordmap-containter")
+        .style("opacity", 0)
+    }
   }
 
   function updateAxes() {
@@ -139,18 +201,23 @@ function drawGraph(data) {
   }
 
   function setSentimentData() {
+    
+    //  not necessary to set these until click
 
     minScore = d3.min(data, function(d) { return d.score })
     maxScore = d3.max(data, function(d) { return d.score })
     cValue = function(d) { return d.score ;},
     color = d3.scale.linear().domain([minScore, maxScore]).range(["#FFDBDB", "#97BEFC"])
     
-    svg.selectAll(".dot")
+    svg.append("g")
+            .attr("class", "points")
+            .selectAll(".dot")
             .data(data)
           .enter().append("circle")
             .attr("class", "dot")
             .attr("r", function(d) { return 3.5 })
             .style("fill", function(d) { return color(cValue(d));}) 
+            .style("opacity", .7)
             .on("mouseover", function(d) {
                 tooltip.transition()
                     .duration(200)
@@ -207,6 +274,81 @@ function drawGraph(data) {
     yAxis = d3.svg.axis()
         .scale(y)
         .orient("left");
+
+  }
+
+  function createWordMap(data) {
+    
+    var formattedData = formatWordMapData(data);
+
+    var color = d3.scale.linear()
+                .domain([0,1,2,3,4,5,6,10,15,20,100])
+                .range(["#ddd", "#ccc", "#bbb", "#aaa", "#999", "#888", "#777", "#666", "#555", "#444", "#333", "#222"]);
+
+    d3.layout.cloud().size([960, 800])
+                .words(formattedData.positive)
+                .rotate(0)
+                .fontSize(function(d) { return d.size; })
+                .on("end", draw)
+                .start();
+
+    function draw(words) {
+        svg
+          .append("g")
+          .attr("class", "wordmap-containter")
+          // without the transform, words words would get cutoff to the left and top, they would
+          // appear outside of the SVG area
+          .attr("transform", "translate(360, 300)")
+          .selectAll("text")
+          .data(words)
+          .enter().append("text")
+          .style("font-size", function(d) { return d.size + "px"; })
+          .style("fill", function(d, i) { return color(i); })
+          .attr("transform", function(d) {
+              return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+          })
+          .text(function(d) { return d.text; });
+    }
+
+  }
+
+  function formatWordMapData(data) {
+
+    var wordCache = data.reduce(function(a,b) {
+     
+      b.positive.forEach(function(word) {
+        addWordToCache(a.positive, word)
+      })
+
+      b.negative.forEach(function(word) {
+        addWordToCache(a.negative, word)
+      })
+
+      return a
+    }, { positive: {}, negative: {} })
+    
+    return { positive: formatAndRemoveItems(wordCache.positive), negative: formatAndRemoveItems(wordCache.negative) }
+    
+    // Helper Functions
+    function formatAndRemoveItems(obj) {
+      return Object.keys(obj).reduce(function(a, k) {
+        if (obj[k] < 2) { 
+          delete obj[k] 
+        } else {
+          a.push({ text: k, size: obj[k]})
+        }
+        return a
+      }, [])
+    }
+
+    function addWordToCache(cache, word) {
+      word = word.toLowerCase()
+      if (cache[word]) {
+        cache[word]++
+      } else {
+        cache[word] = 1
+      }
+    }
 
   }
 
