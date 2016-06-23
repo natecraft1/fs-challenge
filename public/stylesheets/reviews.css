@@ -6,3 +6,14 @@ header div.title {
 .dot {
   stroke: #969696;
 }
+
+.loader {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 150px;
+  top: 150px;
+}
+.loader.hidden {
+  visibility: hidden;
+}

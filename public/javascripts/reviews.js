@@ -4,9 +4,8 @@
 
 d3.json("/reviews/sentiment", function(data) {
   
-  console.log(data)
   drawGraph(data)
-
+  d3.select(".loader").classed("hidden", true)
 });
 
 function drawGraph(data) {
