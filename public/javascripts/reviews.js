@@ -68,64 +68,83 @@ function drawGraph(data) {
         .attr("height", function(d) { return height - y(d.avgRating); })
 
   var minScore, maxScore, cValue, color;
-  var sentimentDataAlreadySet = false
 
-  d3.select("h1.sentiment").on("click", function() {
+  d3.selectAll("h1").on("click", function() {
     
-    if (!sentimentDataAlreadySet) { 
-      setSentimentData()
-    }
-    setGraphOpacity(1)
+    var className = d3.select(this).attr("class");
+    if (className.indexOf("selected") != -1) return;
+    var prevClass = d3.select(".selected").attr("class")
 
-    setXYValuesForSentimentChart(data) 
+    var graph = graphForClass.getGraph(className)
+    var prevGraph = graphForClass.getGraph(prevClass)
 
-    updateAxes()
-
-    animateSeasonalGraphOut()
-
-    setTimeout(function() {
-      animateSentimentGraphIn()
-    }, 500)
-    
-   highlightSelectedHeader(this)
-
-  })
-  
-  d3.select('h1.seasonal').on('click', function() {
-
-    setGraphOpacity(1)
-
-    setXYValuesForSeasonalChart(seasonalData)
-    
-    updateAxes()
-
-    animateSentimentGraphOut()
-
-    setTimeout(function() {
-      animateSeasonalGraphIn()
-    }, 500) 
-    
+    graph.activate()
+    graph.fadeIn()
     highlightSelectedHeader(this)
 
+    prevGraph.fadeOut()
+
   })
 
-  var wordMapCreated = false
-
-  d3.select('h1.wordmap').on("click", function() {
+  var graphForClass = {
+    "seasonal": new SeasonalGraph("seasonal", seasonalData), 
+    "sentiment": new SentimentGraph("sentiment", data), 
+    "wordmap": new WordmapGraph("wordmap", data), 
     
-    setGraphOpacity(0)
+    getGraph: function(className) { return this[Object.keys(this).filter(function(k) {
+      return className.indexOf(k) != -1
+    })[0]] }
+  }
 
-    highlightSelectedHeader(this)
-
-    if (!wordMapCreated) {
-      createWordMap(data)
-      wordMapCreated = true
+  function SeasonalGraph(nameOfClass, data) {
+    
+    this.fadeIn = animateSeasonalGraphIn
+    this.fadeOut = animateSeasonalGraphOut
+    this.activate = function () { 
+      setXYValuesForSeasonalChart(data); 
+      updateAxes();
     }
 
-    d3.select(".wordmap-containter")
-      .style("opacity", 1)
+  }
 
-  })
+  function SentimentGraph(nameOfClass, data) {
+
+    this.created = false
+    this.fadeIn = animateSentimentGraphIn
+    this.fadeOut = animateSentimentGraphOut
+    this.activate = function() {
+      if (!this.created) { 
+        this.created = true
+        createSentimentGraph(); 
+      }
+      setXYValuesForSentimentChart(data)
+      updateAxes()
+    } 
+
+  }
+
+  function WordmapGraph(nameOfClass, data) {
+
+    this.created = false
+    this.fadeIn = function() { 
+      setGraphOpacity(0)
+      d3.select(".wordmap-containter")
+        .style("opacity", 1)
+    }
+    this.fadeOut = function() {
+      setGraphOpacity(1)
+      d3.select(".wordmap-containter")
+        .style("opacity", 0)
+    }
+    this.activate = function() { 
+      if (!this.created) { 
+        this.created = true
+        createWordMap(data) 
+      }
+     
+    }
+
+  }
 
   function animateSeasonalGraphIn() {
     svg.selectAll(".bar")
@@ -180,10 +199,6 @@ function drawGraph(data) {
     d3.select(".axis.y")
       .style("opacity", opacity)
 
-    if (opacity) {
-      d3.select(".wordmap-containter")
-        .style("opacity", 0)
-    }
   }
 
   function updateAxes() {
@@ -200,7 +215,7 @@ function drawGraph(data) {
         .call(yAxis);
   }
 
-  function setSentimentData() {
+  function createSentimentGraph() {
     
     //  not necessary to set these until click
 
