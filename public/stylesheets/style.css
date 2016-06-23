@@ -24,7 +24,7 @@ header h1.selected {
   border-bottom: 2px solid #00BFFF;
 }
 
-a.reviews {
+a.reviews, a.fbi {
   font-size: 20px;
   float: left;
   margin-left: 100px;
